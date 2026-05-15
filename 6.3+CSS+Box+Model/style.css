@@ -1,0 +1,27 @@
+div {
+  height: 200px;
+  width: 200px;
+}
+
+#one {
+  padding: 20px;
+  background-color: blue;
+  border: 10px solid black;
+}
+
+#two {
+  background-color: brown;
+  border: 10px solid black;
+  border-width: 20px 10px;
+  margin-left: 260px;
+}
+
+#three {
+  background-color: indianred;
+  border: 10px solid black;
+  margin-left: 40px;
+}
+
+p {
+  color: black;
+}
