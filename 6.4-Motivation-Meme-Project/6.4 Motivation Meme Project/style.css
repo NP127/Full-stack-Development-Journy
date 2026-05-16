@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  align-content: center;
+}
+#Image-port {
+  margin-left: 32%;
+}
+#text-port {
+  color: white;
+ text-align: center;
+
+}
+img {
+  border: 5px solid white;
+  width: 50%;
+  height: 100%;
+}
