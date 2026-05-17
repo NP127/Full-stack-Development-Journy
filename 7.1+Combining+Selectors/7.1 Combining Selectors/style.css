@@ -1,0 +1,24 @@
+/* Write your code here: */
+body {
+  background-color: rgb(120, 147, 153);
+}
+
+h1 , h2 {
+  color: lightgray;
+}
+p {
+  color : rgb(7, 87, 126);
+
+}
+.box, li.done {
+  color: lightgreen;
+}
+
+.box {
+  color: black;
+}
+
+ul p {
+  color: grey;
+  font-size: small;
+}
