@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Write your CSS here
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+      .container {
+        display: grid;
+        height: 746px;
+        width: 746px;
+        gap: 9px;
+        background-color: #000;
+        grid-template-columns: 320px 351px 50px;
+        grid-template-rows: 414px 285px 20px;
+      }
+      .red-square {
+        background-color: #e72f24;
+      }
+      .white-square {
+        background-color: #f0f1ec;
+      }
+      #top-right {
+        grid-column: span 2;
+      }
+      .container-1 {
+        grid-row: span 2;
+        background-color: #f0f1ec;
+        display: grid;
+        grid-template-rows: 130px 155px;
+        grid-template-columns: 100%;
+      }
+      .blue-square {
+        background-color: #004592;
+        border-bottom: 10px solid #000
+      }
+      .yellow-square {
+        background-color: #f9d01e;
+      }
+      .black-square {
+        background-color: #232629;
+      }
+      .container-2 {
+        display: grid;
+        grid-template-columns: 198px 153px;
+        grid-template-rows: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="container">
+      <div class="red-square"></div>
+      <div class="white-square" id="top-right"></div>
+      <div class="white-square"></div>
+      <div class="white-square"></div>
+      <div class="container-1">
+        <div class="blue-square"></div>
+      </div>
+      <div class="white-square"></div>
+      <div class="container-2">
+        <div class="yellow-square"></div>
+        <div class="black-square"></div>
+      </div>
+    </div>
+  </body>
+</html>
