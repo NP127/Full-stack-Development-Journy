@@ -1,0 +1,12 @@
+{
+  "name": "2.3-npm",
+  "version": "1.0.0",
+  "description": "Learning to use modules on npm ",
+  "license": "ISC",
+  "author": "Nahim Lukaya",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

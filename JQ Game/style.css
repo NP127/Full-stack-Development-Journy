@@ -1,0 +1,33 @@
+body {
+  background-color: #011f3f;
+  font-family: "Press Start 2P", cursive;
+}
+.redflash {
+  background-color: red !important;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  color: white;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 400px;
+  width: 400px;
+  gap: 20px;
+  /* background-color: black; */
+}
+button {
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.PlayAwait {
+  background-color: rgb(249, 249, 249);
+  filter: brightness(2);
+}
